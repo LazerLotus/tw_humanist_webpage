@@ -423,22 +423,49 @@ section {
 
 .programs-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   gap: 2rem;
 }
 
 .program-card {
   background: white;
-  padding: 2.5rem;
   border-radius: 20px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
-  border-left: 5px solid #27ae60;
+  overflow: hidden;
 }
 
 .program-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+
+.program-image {
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+  position: relative;
+}
+
+.program-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.program-card:hover .program-image img {
+  transform: scale(1.05);
+}
+
+/* Special handling for International Collaboration card with 4:3 aspect ratio */
+.international-collaboration-card .program-image img {
+  object-fit: contain;
+  background-color: #f8f9fa;
+}
+
+.program-content {
+  padding: 2rem;
 }
 
 .program-icon {
