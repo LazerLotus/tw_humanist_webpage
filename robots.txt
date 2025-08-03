@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://yourdomain.com/sitemap.xml
+Sitemap: https://humanist.tw/sitemap.xml
 
 # Disallow admin or private areas (if any are added later)
 # Disallow: /admin/

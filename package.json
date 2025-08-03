@@ -22,12 +22,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/tw_humanist_webpage.git"
+    "url": "https://github.com/LazerLotus/tw_humanist_webpage/settings/pages"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/tw_humanist_webpage/issues"
+    "url": "https://github.com/LazerLotus/tw_humanist_webpage/issues"
   },
-  "homepage": "https://yourdomain.com",
+  "homepage": "https://humanist.tw",
   "devDependencies": {
     "serve": "^14.2.0"
   },
