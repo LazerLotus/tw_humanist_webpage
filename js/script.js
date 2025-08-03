@@ -127,10 +127,10 @@ function showNotification(message, type = "info") {
         right: 20px;
         background: ${
           type === "success"
-            ? "#2ecc71"
+            ? "#27ae60"
             : type === "error"
             ? "#e74c3c"
-            : "#3498db"
+            : "#27ae60"
         };
         color: white;
         padding: 1rem 1.5rem;
@@ -205,7 +205,7 @@ window.addEventListener("scroll", () => {
 const style = document.createElement("style");
 style.textContent = `
     .nav-link.active {
-        color: #3498db !important;
+        color: #27ae60 !important;
     }
     
     .nav-link.active::after {
@@ -350,7 +350,7 @@ document.addEventListener("DOMContentLoaded", initTooltips);
 // Console welcome message
 console.log(
   "%cTaiwanese Humanist Institute",
-  "color: #3498db; font-size: 20px; font-weight: bold;"
+  "color: #27ae60; font-size: 20px; font-weight: bold;"
 );
 console.log(
   "%cBuilding a Rational, Compassionate, and Inclusive Society",
