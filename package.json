@@ -1,0 +1,37 @@
+{
+  "name": "taiwanese-humanist-institute-website",
+  "version": "1.0.0",
+  "description": "Official website for the Taiwanese Humanist Institute - Building a Rational, Compassionate, and Inclusive Society",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "serve": "npx serve .",
+    "dev": "python3 -m http.server 8000",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": [
+    "humanism",
+    "taiwan",
+    "non-profit",
+    "education",
+    "civic-engagement",
+    "disaster-relief",
+    "language-revitalization"
+  ],
+  "author": "Taiwanese Humanist Institute",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/tw_humanist_webpage.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/tw_humanist_webpage/issues"
+  },
+  "homepage": "https://yourdomain.com",
+  "devDependencies": {
+    "serve": "^14.2.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
